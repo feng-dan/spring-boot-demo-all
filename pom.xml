@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>1.8</java.version>
         <revision>1.0.0</revision>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -41,7 +41,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.7.3</version> <!-- 如果 spring.boot.version 版本修改，则这里也要跟着修改 -->
+                <version>2.6.11</version> <!-- 如果 spring.boot.version 版本修改，则这里也要跟着修改 -->
                 <configuration>
                     <fork>true</fork>
                 </configuration>
