@@ -9,9 +9,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <revision>1.0.0</revision>
-        <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
@@ -19,6 +18,7 @@
     <modules>
         <module>spring-boot-demo-logback</module>
         <module>spring-boot-demo-all-dependencies</module>
+        <module>spring-boot-demo-web</module>
     </modules>
 
     <dependencyManagement>
@@ -32,21 +32,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 </project>
