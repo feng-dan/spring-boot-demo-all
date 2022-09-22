@@ -53,6 +53,48 @@
                     </execution>
                 </executions>
             </plugin>
+
+<!--            <plugin>-->
+<!--                <groupId>io.jpom.jpom-plugin</groupId>-->
+<!--                <artifactId>jpom-maven-plugin</artifactId>-->
+<!--                <version>LATEST</version>-->
+<!--                <configuration>-->
+<!--                    &lt;!&ndash;节点地址 &ndash;&gt;-->
+<!--                    <url>http://127.0.0.1:2122</url>&lt;!&ndash;jpom服务器的地址 &ndash;&gt;-->
+<!--                    <nodeIds>-->
+<!--                        <nodeId>localhost</nodeId> &lt;!&ndash;节点的id &ndash;&gt;-->
+<!--                    </nodeIds>-->
+<!--                    &lt;!&ndash;用户token &ndash;&gt;-->
+<!--                    <token>9b547575e2108c4ed146a031c0b57d2a1d7cbdaf</token>&lt;!&ndash;用于通过jpom登陆验证 &ndash;&gt;-->
+<!--                    <project>&lt;!&ndash;节点中的 管理项目配置信息 &ndash;&gt;-->
+<!--                        <name>测试</name> &lt;!&ndash;项目名称 &ndash;&gt;-->
+<!--                        <id>ss</id>     &lt;!&ndash;项目ID &ndash;&gt;-->
+<!--                        <runMode>File</runMode> &lt;!&ndash;运行方式 &ndash;&gt;-->
+<!--                        <path>dfgdsfg</path>&lt;!&ndash;项目文件夹 &ndash;&gt;-->
+<!--                        <whitelistDirectory>/test/</whitelistDirectory>&lt;!&ndash;项目路径 &ndash;&gt;-->
+<!--                        &lt;!&ndash;非必填&ndash;&gt;-->
+<!--                        <group></group> &lt;!&ndash;分组的名字 &ndash;&gt;-->
+<!--                        <mainClass></mainClass> &lt;!&ndash;MainClass  当运行方式是ClassPath时填写&ndash;&gt;-->
+<!--                        <jvm></jvm> &lt;!&ndash;运行方式 &ndash;&gt;-->
+<!--                        <args></args>&lt;!&ndash;args参数 &ndash;&gt;-->
+<!--                        <webHook></webHook>&lt;!&ndash;WebHooks &ndash;&gt;-->
+<!--                    </project>-->
+<!--                    <nodeProjects> &lt;!&ndash;参数优先级高于project &ndash;&gt;-->
+<!--                        <nodeProject>-->
+<!--                            <nodeId>test</nodeId>-->
+<!--                            <args>&#45;&#45;spring.profiles.active=dev</args> &lt;!&ndash;如果这里指定,那么上面的就不生效了 &ndash;&gt;-->
+<!--                        </nodeProject>-->
+<!--                    </nodeProjects>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>spring-boot-demo-web</goal> &lt;!&ndash;执行的moto值 &ndash;&gt;-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+
         </plugins>
     </build>
 </project>
