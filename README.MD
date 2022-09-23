@@ -1,5 +1,41 @@
 # Spring Boot Demo All
+### spring-boot-demo-all-dependencies
 ### spring-boot-demo-logback
+### spring-boot-demo-web
 ### spring-boot-demo-mybatis
 ### spring-boot-demo-mybatis-plus
-### spring-boot-demo-web
+### spring-boot-demo-security
+### spring-boot-demo-elastic-search
+### spring-boot-demo-redis
+### spring-boot-demo-mysql
+### ~~spring-boot-demo-test~~
+### spring-boot-demo-rabbitMQ
+### spring-boot-demo-kafka
+### spring-boot-demo-mqtt
+### spring-boot-demo-websocket
+### spring-boot-demo-actuator
+### spring-boot-demo-freemarker
+### spring-boot-demo-thymeleaf
+### spring-boot-demo-jdbc-template
+### spring-boot-demo-jpa
+### spring-boot-demo-mapper
+### spring-boot-demo-ehcache
+### spring-boot-demo-email
+### spring-boot-demo-quartz
+### spring-boot-demo-xxl-job
+### spring-boot-demo-swagger
+### spring-boot-demo-spring-session
+### spring-boot-demo-zookeeper
+### spring-boot-demo-async
+### spring-boot-demo-apache-dubbo
+### spring-boot-demo-mongoDB
+### spring-boot-demo-neo4j
+### spring-boot-demo-docker
+### spring-boot-demo-durid
+### spring-boot-demo-apollo
+### spring-boot-demo-feign
+### spring-boot-demo-easy-excel
+### spring-boot-demo-validation
+### spring-boot-demo-mapstruct(https://mapstruct.org/)
+
+
