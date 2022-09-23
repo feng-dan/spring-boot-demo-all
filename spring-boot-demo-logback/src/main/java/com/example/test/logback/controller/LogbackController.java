@@ -1,4 +1,4 @@
-package com.example.logback.controller;
+package com.example.test.logback.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
