@@ -1,4 +1,4 @@
-package com.example.logback;
+package com.example.test.logback;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

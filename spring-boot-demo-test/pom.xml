@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>spring-boot-demo-all</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>spring-boot-demo-test</artifactId>
+    <name>${project.artifactId}</name>
+    <description>${project.artifactId}</description>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!--抽象公共模块-->
+        <dependency>
+            <groupId>com.example.common</groupId>
+            <artifactId>spring-boot-demo-common</artifactId>
+        </dependency>
+        <!-- 单元测试，我们采用 H2 作为数据库 -->
+        <!--引入 com.h2database.h2 依赖，因为晚点编写 Dao 的单元测试时，我们显然不能使用 MySQL，这样会存在对外部环境的依赖，所以我们采用 H2 内存数据库。-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+        <!--它会引入 JUnit、Mockito、Hamcrest 等等框架，用于编写测试-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
